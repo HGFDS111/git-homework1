@@ -1,0 +1,16 @@
+  129  nano README.md
+  130  ls
+  131  nano .gitignore
+  132  git status
+  133  git add README.md .gitignore
+  134  git status
+  135  git commit -m "Add README and update gitignore"
+  136  git status
+  137  git push -u origin feature
+  138  git commit --amend -m "Add README and update gitignore ammend"
+  139  git log --oneline
+  140  git push --force
+  141  git checkout main
+  142  git merge feature
+  143  git log --oneline
+  144  git push
